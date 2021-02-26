@@ -1,0 +1,83 @@
+body{
+  background-image:url("background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+  margin: auto;
+  width: 1200px;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  border-radius: 15px;
+}
+header{
+  padding-bottom: 100px;
+}
+header > img{
+  width: 250px;
+  display: block;
+  position: relative;
+  top: 100px;
+  margin: auto;
+}
+
+nav > h1{
+  color: #00ff00;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 13px;
+  margin-bottom: 3px;
+}
+
+nav > div{
+  background-color: #00ff00;
+  width: 85%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+div > button{
+  margin-top: 10px;
+}
+
+.sec1, .sec2, .sec3{
+  margin-left: 88px;
+  color: white;
+}
+
+section > h2{
+  margin-bottom: 2px;
+}
+
+section > span{
+  font-size: 18px;
+
+}
+
+section.sec1 > div{
+  border-radius: 5px;
+  background-color: #ffbb3d;
+  width: 40%;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+section.sec2 > div{
+  border-radius: 5px;
+  background-color: #149814;
+  width: 65%;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+section.sec3 > div{
+  border-radius: 5px;
+  background-color: #bb2f2f;
+  width: 15%;
+  height: 25px;
+  margin-bottom: 30px;
